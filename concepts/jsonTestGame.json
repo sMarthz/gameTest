@@ -1,0 +1,208 @@
+{
+    "weapons": {
+        "sword": {
+            "id": 1,
+            "name": "Sword",
+            "durability": 100,
+            "damage": 5,
+            "class": "Swordsman",
+            "type": "Melee",
+            "dificulty": 1,
+            "price": 200,
+            "sell_for": 75,
+            "img": "./assets/img/items/sword.png"
+        },
+        "bow": {
+            "id": 2,
+            "name": "Bow",
+            "durability": 100,
+            "damage": 4,
+            "class": "Archer",
+            "type": "Range",
+            "dificulty": 1,
+            "price": 200,
+            "sell_for": 75,
+            "img": "./assets/img/items/bow.png"
+        },
+        "spellbook": {
+            "id": 3,
+            "name": "Spell book",
+            "durability": 100,
+            "damage": 4,
+            "class": "Wizard",
+            "type": "Magic",
+            "dificulty": 1,
+            "price": 200,
+            "sell_for": 75,
+            "img": "./assets/img/items/spellbook.png"
+        }
+    },
+    "armors": {
+        "helmet": {
+            "id": 1,
+            "name": "Helmet",
+            "durability": 100,
+            "resistance": 3,
+            "class": "Swordsman",
+            "type": "Tough",
+            "dificulty": 1,
+            "price": 200,
+            "sell_for": 75,
+            "img": "./assets/img/items/helmet.png"
+        },
+        "chestplate": {
+            "id": 2,
+            "name": "Chestplate",
+            "durability": 100,
+            "resistance": 4,
+            "class": "Swordsman",
+            "type": "Tough",
+            "dificulty": 1,
+            "price": 200,
+            "sell_for": 75,
+            "img": "./assets/img/items/chestplate.png"
+        },
+        "leggins": {
+            "id": 3,
+            "name": "Leggins",
+            "durability": 100,
+            "resistance": 3,
+            "class": "Swordsman",
+            "type": "Tough",
+            "dificulty": 1,
+            "price": 200,
+            "sell_for": 75,
+            "img": "./assets/img/items/leggins.png"
+        },
+        "boots": {
+            "id": 4,
+            "name": "Boots",
+            "durability": 100,
+            "resistance": 2,
+            "class": "Swordsman",
+            "type": "Tough",
+            "dificulty": 1,
+            "price": 200,
+            "sell_for": 75,
+            "img": "./assets/img/items/boots.png"
+        },
+        "hood": {
+            "id": 5,
+            "name": "Hood",
+            "durability": 100,
+            "resistance": 1,
+            "class": "Archer",
+            "type": "Light",
+            "dificulty": 1,
+            "price": 200,
+            "sell_for": 75,
+            "img": "./assets/img/items/hood.png"
+        },
+        "vest": {
+            "id": 6,
+            "name": "Vest",
+            "durability": 100,
+            "resistance": 2,
+            "class": "Archer",
+            "type": "Light",
+            "dificulty": 1,
+            "price": 200,
+            "sell_for": 75,
+            "img": "./assets/img/items/vest.png"
+        },
+        "trousers": {
+            "id": 7,
+            "name": "Vest",
+            "durability": 100,
+            "resistance": 1,
+            "class": "Archer",
+            "type": "Light",
+            "dificulty": 1,
+            "price": 200,
+            "sell_for": 75,
+            "img": "./assets/img/items/trousers.png"
+        },
+        "half-boot": {
+            "id": 8,
+            "name": "Half-boot",
+            "durability": 100,
+            "resistance": 1,
+            "class": "Archer",
+            "type": "Light",
+            "dificulty": 1,
+            "price": 200,
+            "sell_for": 75,
+            "img": "./assets/img/items/half-boot.png"
+        },
+        "pointed-hat": {
+            "id": 9,
+            "name": "Pointed hat",
+            "durability": 100,
+            "resistance": 1,
+            "class": "Wizard",
+            "type": "Magic",
+            "dificulty": 1,
+            "price": 200,
+            "sell_for": 75,
+            "img": "./assets/img/items/pointed-hat.png"
+        },
+        "tunic-top": {
+            "id": 10,
+            "name": "Tunic (top)",
+            "durability": 100,
+            "resistance": 2,
+            "class": "Wizard",
+            "type": "Magic",
+            "dificulty": 1,
+            "price": 200,
+            "sell_for": 75,
+            "img": "./assets/img/items/tunic-top.png"
+        },
+        "tunic-bottom": {
+            "id": 11,
+            "name": "Tunic (bottom)",
+            "durability": 100,
+            "resistance": 2,
+            "class": "Wizard",
+            "type": "Magic",
+            "dificulty": 1,
+            "price": 200,
+            "sell_for": 75,
+            "img": "./assets/img/items/tunic-bottom.png"
+        },
+        "magic-boots": {
+            "id": 12,
+            "name": "Magic boots",
+            "durability": 100,
+            "resistance": 1,
+            "class": "Wizard",
+            "type": "Magic",
+            "dificulty": 1,
+            "price": 200,
+            "sell_for": 75,
+            "img": "./assets/img/items/magic-boots.png"
+        }
+    },
+    "monster": {
+        "slime": {
+            "id": 1,
+            "name": "Slime",
+            "type": "Water",
+            "damage": 5,
+            "special": false,
+            "item_drop": "Slime essence",
+            "drop_chance": 0.6,
+            "sprite": "./assets/sprites/slime/slime.png"
+        },
+        "wolf": {
+            "id": 1,
+            "name": "Wolf",
+            "type": "Neutral",
+            "damage": 10,
+            "special": false,
+            "item_drop": ["Wolf fang", "Wolf coat"],
+            "drop_chance": [0.5, 0.2],
+            "sprite": "./assets/sprites/wolf/wolf.png"
+        }
+    }
+}

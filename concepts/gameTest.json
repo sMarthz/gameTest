@@ -1,0 +1,37 @@
+{
+    "player": {
+        "id": 1,
+        "name": "Player",
+        "level": 1,
+        "hp": 100,
+        "mana": 100,
+        "class": "Wizard",
+        "job": "Farmer"
+    },
+    "monster": {
+        "id": 1,
+        "name": "Slime",
+        "level": 1,
+        "hp": 20,
+        "basicAttackDmg": 1,
+        "specialAttack": "Spit",
+        "specialAttackDmg": 5
+    },
+    "NPC": {
+        "id": 1,
+        "name": "NPC",
+        "level": 1,
+        "hp": 100,
+        "mana": 100,
+        "class": "Archer",
+        "job": "Trader"
+    },
+    "item": {
+        "id": 1,
+        "name": "Sword",
+        "class": "Swordsman",
+        "type": "weapon",
+        "itemType": "melee",
+        "skill": ""
+    }
+}
