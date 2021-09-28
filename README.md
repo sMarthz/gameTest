@@ -4,6 +4,6 @@ Probablemente migremos a **C++** >> **Unreal Engine** o a **C#** >> **Unity** pa
 
 ### Iniciar el servidor
 Entra en el directorio raíz del proyecto clonado y ejecuta el siguiente comando en una terminal:
-```javascript
+```cmd
 ng serve -o
 ```
